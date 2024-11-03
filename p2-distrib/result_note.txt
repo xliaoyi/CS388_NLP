@@ -1,0 +1,123 @@
+# eight head model
+
+10000 lines read in
+1000 lines read in
+Epoch 0: loss = 6287.310289
+Epoch 1: loss = 1622.366517
+Epoch 2: loss = 536.884671
+Epoch 3: loss = 270.823393
+Epoch 4: loss = 170.823344
+Epoch 5: loss = 133.213622
+Epoch 6: loss = 106.504910
+Epoch 7: loss = 92.758298
+Epoch 8: loss = 85.958170
+Epoch 9: loss = 82.287079
+INPUT 0: heir average albedo
+GOLD 0: array([0, 2, 0, 1, 2, 2, 0, 2, 1, 2, 0, 2, 2, 2, 0, 0, 2, 0, 0, 2])
+PRED 0: array([0, 2, 0, 1, 2, 2, 0, 2, 1, 2, 0, 2, 2, 2, 0, 0, 2, 0, 0, 2])
+Passed normalization test on attention maps
+INPUT 1: ed by rank and file
+GOLD 1: array([1, 1, 2, 0, 0, 2, 0, 1, 1, 0, 2, 1, 1, 1, 2, 0, 0, 0, 1, 2])
+PRED 1: array([1, 1, 2, 0, 0, 2, 0, 1, 1, 0, 2, 1, 1, 1, 2, 0, 0, 0, 1, 2])
+Passed normalization test on attention maps
+INPUT 2: s can also extend in
+GOLD 2: array([1, 2, 0, 1, 2, 2, 1, 0, 1, 0, 2, 1, 0, 0, 1, 2, 0, 2, 0, 2])
+PRED 2: array([1, 2, 0, 1, 2, 2, 1, 0, 1, 0, 2, 1, 0, 0, 1, 2, 0, 2, 0, 2])
+Passed normalization test on attention maps
+INPUT 3: erages between nine
+GOLD 3: array([2, 0, 0, 0, 2, 0, 2, 0, 2, 0, 0, 2, 2, 2, 2, 2, 0, 2, 2, 2])
+PRED 3: array([2, 0, 0, 0, 2, 0, 2, 0, 2, 0, 0, 2, 2, 2, 2, 2, 0, 2, 2, 2])
+Passed normalization test on attention maps
+INPUT 4:  that civilization n
+GOLD 4: array([2, 2, 0, 1, 2, 2, 0, 2, 0, 2, 0, 2, 0, 1, 2, 2, 0, 1, 2, 1])
+PRED 4: array([2, 2, 0, 1, 2, 2, 0, 2, 0, 2, 0, 2, 0, 1, 2, 2, 0, 1, 2, 1])
+Passed normalization test on attention maps
+Accuracy: 100 / 100 = 1.000000
+Training accuracy (100 exs):
+Accuracy: 1999 / 2000 = 0.999500
+Dev accuracy (whole set):
+Decoding on a large number of examples (1000); not printing or plotting
+Accuracy: 19981 / 20000 = 0.999050
+
+
+# single head model
+
+10000 lines read in
+1000 lines read in
+Epoch 0: loss = 5834.046146
+Epoch 1: loss = 3886.268881
+Epoch 2: loss = 2852.344541
+Epoch 3: loss = 2559.932189
+Epoch 4: loss = 2315.947279
+Epoch 5: loss = 2011.968843
+Epoch 6: loss = 1202.650146
+Epoch 7: loss = 780.168998
+Epoch 8: loss = 708.801369
+Epoch 9: loss = 681.239662
+INPUT 0: heir average albedo
+GOLD 0: array([0, 2, 0, 1, 2, 2, 0, 2, 1, 2, 0, 2, 2, 2, 0, 0, 2, 0, 0, 2])
+PRED 0: array([0, 2, 0, 1, 2, 2, 0, 2, 2, 2, 0, 2, 2, 2, 0, 0, 2, 0, 0, 2])
+Passed normalization test on attention maps
+INPUT 1: ed by rank and file
+GOLD 1: array([1, 1, 2, 0, 0, 2, 0, 1, 1, 0, 2, 1, 1, 1, 2, 0, 0, 0, 1, 2])
+PRED 1: array([1, 1, 2, 0, 0, 2, 0, 1, 1, 0, 2, 1, 1, 1, 2, 0, 0, 0, 1, 2])
+Passed normalization test on attention maps
+INPUT 2: s can also extend in
+GOLD 2: array([1, 2, 0, 1, 2, 2, 1, 0, 1, 0, 2, 1, 0, 0, 1, 2, 0, 2, 0, 2])
+PRED 2: array([1, 2, 0, 1, 2, 2, 1, 0, 1, 0, 2, 1, 0, 0, 1, 2, 0, 2, 0, 2])
+Passed normalization test on attention maps
+INPUT 3: erages between nine
+GOLD 3: array([2, 0, 0, 0, 2, 0, 2, 0, 2, 0, 0, 2, 2, 2, 2, 2, 0, 2, 2, 2])
+PRED 3: array([2, 1, 0, 0, 2, 0, 2, 0, 2, 0, 0, 2, 2, 2, 2, 2, 0, 2, 2, 2])
+Passed normalization test on attention maps
+INPUT 4:  that civilization n
+GOLD 4: array([2, 2, 0, 1, 2, 2, 0, 2, 0, 2, 0, 2, 0, 1, 2, 2, 0, 1, 2, 1])
+PRED 4: array([2, 2, 0, 1, 2, 2, 0, 2, 0, 2, 0, 2, 0, 1, 2, 2, 0, 1, 2, 1])
+Passed normalization test on attention maps
+Accuracy: 98 / 100 = 0.980000
+Training accuracy (100 exs):
+Accuracy: 1941 / 2000 = 0.970500
+Dev accuracy (whole set):
+Decoding on a large number of examples (1000); not printing or plotting
+Accuracy: 19379 / 20000 = 0.968950
+
+# single head model with eight transformer layers
+
+10000 lines read in
+1000 lines read in
+Epoch 0: loss = 3009.838355
+Epoch 1: loss = 872.977949
+Epoch 2: loss = 654.018873
+Epoch 3: loss = 522.420401
+Epoch 4: loss = 417.011965
+Epoch 5: loss = 369.871681
+Epoch 6: loss = 336.617919
+Epoch 7: loss = 302.098398
+Epoch 8: loss = 282.065299
+Epoch 9: loss = 256.650823
+INPUT 0: heir average albedo
+GOLD 0: array([0, 2, 0, 1, 2, 2, 0, 2, 1, 2, 0, 2, 2, 2, 0, 0, 2, 0, 0, 2])
+PRED 0: array([0, 2, 0, 1, 2, 2, 0, 2, 1, 2, 0, 2, 2, 2, 0, 0, 2, 0, 0, 2])
+Passed normalization test on attention maps
+INPUT 1: ed by rank and file
+GOLD 1: array([1, 1, 2, 0, 0, 2, 0, 1, 1, 0, 2, 1, 1, 1, 2, 0, 0, 0, 1, 2])
+PRED 1: array([1, 1, 2, 0, 0, 2, 0, 1, 1, 0, 2, 1, 1, 1, 2, 0, 0, 0, 1, 2])
+Passed normalization test on attention maps
+INPUT 2: s can also extend in
+GOLD 2: array([1, 2, 0, 1, 2, 2, 1, 0, 1, 0, 2, 1, 0, 0, 1, 2, 0, 2, 0, 2])
+PRED 2: array([1, 2, 0, 1, 2, 2, 1, 0, 1, 0, 2, 1, 0, 0, 1, 2, 0, 2, 0, 2])
+Passed normalization test on attention maps
+INPUT 3: erages between nine
+GOLD 3: array([2, 0, 0, 0, 2, 0, 2, 0, 2, 0, 0, 2, 2, 2, 2, 2, 0, 2, 2, 2])
+PRED 3: array([2, 0, 0, 0, 2, 0, 2, 0, 2, 0, 0, 2, 2, 2, 2, 2, 0, 2, 2, 2])
+Passed normalization test on attention maps
+INPUT 4:  that civilization n
+GOLD 4: array([2, 2, 0, 1, 2, 2, 0, 2, 0, 2, 0, 2, 0, 1, 2, 2, 0, 1, 2, 1])
+PRED 4: array([2, 2, 0, 1, 2, 2, 0, 2, 0, 2, 0, 2, 0, 1, 2, 2, 0, 1, 2, 1])
+Passed normalization test on attention maps
+Accuracy: 100 / 100 = 1.000000
+Training accuracy (100 exs):
+Accuracy: 1981 / 2000 = 0.990500
+Dev accuracy (whole set):
+Decoding on a large number of examples (1000); not printing or plotting
+Accuracy: 19839 / 20000 = 0.991950
